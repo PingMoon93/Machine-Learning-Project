@@ -1,0 +1,36 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+env/
+venv/
+
+# 数据文件（太大不适合放 GitHub）
+data/
+*.csv
+*.tsv
+*.h5
+*.pkl
+*.npz
+
+# 模型和检查点
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter Notebook 自动生成的东西
+.ipynb_checkpoints/
+
+# 日志和运行输出
+*.log
+*.out
+*.err
+runs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
